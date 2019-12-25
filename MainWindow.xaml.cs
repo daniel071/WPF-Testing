@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,7 @@ namespace WPF_Testing
 
         private void Number1_TextChanged_1(object sender, TextChangedEventArgs e)
         {
-            Console.WriteLine(e);
+
         }
 
         private void Number2_TextChanged(object sender, TextChangedEventArgs e)
